@@ -116,6 +116,7 @@
   },
   "scripts": {
     "test": "grunt test",
+    "start": "nodemon ./server/app.js",
     "postinstall": "bower install"
   },
   "version": "1.0.9"
