@@ -204,7 +204,7 @@ app.get('/sitter/newtasks', function (req, res) {
 
 // If we are being run directly, run the server.
 if (!module.parent) {
-  app.listen(process.env.PORT || app.get('port');
+  app.listen(process.env.PORT || app.get('port'));
   console.log("Listening on", app.get("port"));
 }
 
